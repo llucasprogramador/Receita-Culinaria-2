@@ -15,20 +15,22 @@
         </div>
         <div class="section ingredients-section">
             <h2>Ingredientes</h2>
-            <ul id="ingredients-list"></ul>
+            <ul id="ingredients-list">
+            
+            </ul>
         </div>
         <div class="section steps-section">
             <h2>Passo a Passo</h2>
             <div id="step-display" class="step-display">
-                <img id="step-image" class="step-image" src= "image/" alt="Imagem do Passo">
+                <div class="step-image-container">
+                    <img id="step-image" class="step-image" src="https://placehold.co/600x400/png?text=Passo+Atual" alt="Imagem do Passo">
+                </div>
                 <p id="step-text" class="step-text"></p>
                 <div class="step-controls">
-                    <div id="timer-display" class="timer-display">
-                        <span id="timer-minutes">00</span>:<span id="timer-seconds">00</span>
-                    </div>
+                    <div id="timer-display" class="timer-display">00:00</div>
                     <label class="checkbox-container">
                         <input type="checkbox" id="step-completed-checkbox">
-                        Passo Concluido
+                        Passo Concluído
                     </label>
                 </div>
             </div>
@@ -38,11 +40,11 @@
             </div>
             <button id="restart-recipe-btn" class="action-button restart-button">Reiniciar Receita</button>
         </div>
-    </div>
-    <div id="message-box" class="modal">
-        <div class="modal-content">
-            <p id="message-text"></p>
-            <button id="close-message-btn" class="action-button">OK</button>
+        <div id="message-box" class="modal">
+            <div class="modal-content">
+                <p id="message-text"></p>
+                <button id="close-message-btn" class="action-button">OK</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
