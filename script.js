@@ -33,27 +33,27 @@ document.addEventListener('DOMContentLoaded', () => {
         steps: [
             {
                 text: 'Corte o guanciale em cubos pequenos e uniformes. Coloque os cubos em uma frigideira fria em fogo baixo. Cozinhe lentamente até que a gordura derreta e o guanciale fique crocante. Retire a frigideira do fogo e separe o guanciale crocante, deixando a gordura derretida na frigideira.',
-                image: "./image/1.png", // Caminho relativo corrigido
+                image:"https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-38a0-622f-88bb-4e2e1dd330b3/raw?se=2025-09-10T13%3A52%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=07f53efd-afb1-5189-914f-57108f8fba05&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-09T19%3A59%3A48Z&ske=2025-09-10T19%3A59%3A48Z&sks=b&skv=2024-08-04&sig=6papdLjNkaNUhUAaZc3SSKjjbOL0EY8n5vAzIuag42E%3D", // Caminho relativo corrigido
                 timer: 300,
             },
             {
                 text: 'Ferva uma panela grande com água e adicione uma quantidade generosa de sal grosso. Adicione o macarrão e cozinhe conforme as instruções da embalagem até que fique al dente. Antes de escorrer, reserve cerca de uma concha da água do cozimento.',
-                image: './image/2.png', // Caminho relativo corrigido
+                image: 'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-0db8-622f-ae13-df609d8336d7/raw?se=2025-09-10T13%3A52%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=7bdb12f9-518d-5f87-8eb7-b5ceaa754eab&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-09T20%3A02%3A14Z&ske=2025-09-10T20%3A02%3A14Z&sks=b&skv=2024-08-04&sig=kT%2B1Fb0c0or1DTXF8F5%2BliLauT8gL3WO6ZK3ebCHHp0%3D', // Caminho relativo corrigido
                 timer: 1200,
             },
             {
                 text: 'Em uma tigela grande, bata as 3 gemas e o ovo inteiro. Adicione o Pecorino Romano ralado e misture bem. Tempere com bastante pimenta-do-reino moída na hora. Misture até formar uma pasta cremosa.',
-                image: './image/3.png', // Caminho relativo corrigido
+                image:'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-1ac0-622f-8a44-2ee9c4192e45/raw?se=2025-09-10T13%3A52%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=95813a56-4c01-5f0d-a1ba-456d6c7d2ccb&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-09T20%3A02%3A05Z&ske=2025-09-10T20%3A02%3A05Z&sks=b&skv=2024-08-04&sig=1IA3syNXAxGUQLufxrbfGv6iRJ52/3KCc5mZLIBea5M%3D', // Caminho relativo corrigido
                 timer: 180,
             },
             {
                 text: 'Com a frigideira do guanciale ainda quente, adicione o macarrão escorrido e a mistura de ovos e queijo (FORA DO FOGO!). Misture vigorosamente, adicionando a água do cozimento reservada aos poucos, até que o molho fique cremoso. Adicione o guanciale crocante e misture novamente.',
-                image: './image/4.png', // Caminho relativo corrigido
+                image:'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-994c-622f-ba04-24fcb1a57ca1/raw?se=2025-09-10T13%3A52%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=9af5f937-665d-502d-b24b-b59ca756788a&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-10T07%3A50%3A12Z&ske=2025-09-11T07%3A50%3A12Z&sks=b&skv=2024-08-04&sig=roo/iyq6HDJ%2BioCQa3MJP46m0S43kQtQpqTiodDry84%3D', // Caminho relativo corrigido
                 timer: 240,
             },
             {
                 text: 'Sirva imediatamente em pratos quentes. Finalize com mais pimenta-do-reino moída na hora e, se desejar, um pouco mais de Pecorino Romano ralado. Bom apetite!',
-                image: './image/5.png', // Caminho relativo corrigido
+                image:'https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-4e4c-622f-abf6-2a4de0506a27/raw?se=2025-09-10T13%3A53%3A00Z&sp=r&sv=2024-08-04&sr=b&scid=ef6716e8-5fe3-5a21-95ca-e0c6e386506c&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-10T07%3A49%3A41Z&ske=2025-09-11T07%3A49%3A41Z&sks=b&skv=2024-08-04&sig=nAMKgsbE5IK7huT4fGW9ddx2WqyjGDH71anwDuVtIpE%3D', // Caminho relativo corrigido
                 timer: 60,
             },
         ]
