@@ -1,0 +1,201 @@
+/* Geral e Layout */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0a8310;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #e62222; /* Laranja Carbonara */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+/* Seções de Conteúdo */
+.section {
+    margin-bottom: 30px;
+}
+
+.recipe-info-section p {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+.ingredients-section ul {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+.ingredients-section li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Passo a Passo */
+.step-display {
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 250px; /* Garante que a caixa não encolha */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-image {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.step-text {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #444;
+    text-align: left;
+    white-space: pre-wrap; /* Mantém a quebra de linha do JS */
+}
+
+/* Controles e Botões */
+.step-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.timer-display {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #e62222;
+    background-color: #fdf6ec;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.action-button {
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.action-button.primary {
+    background-color: #27ae60; /* Verde */
+}
+
+.action-button.primary:hover {
+    background-color: #219d52;
+    transform: translateY(-2px);
+}
+
+.action-button.secondary {
+    background-color: #3498db; /* Azul */
+}
+
+.action-button.secondary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.action-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.restart-button {
+    background-color: #e74c3c; /* Vermelho */
+    display: block;
+    margin: 20px auto 0;
+}
+
+.restart-button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+}
+
+/* Mensagens (Modal) */
+.modal {
+    display: none; /* Inicia escondido */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
